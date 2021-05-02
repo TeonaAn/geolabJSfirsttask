@@ -51,7 +51,8 @@ function mapFunction (value){
         return value;
     }
 }
-console.log(items.map(mapFunction));
+let newItem = items.map(mapFunction);
+console.log(newItem);
 
 // filter და map ფუნქციების გამოყენებით შექმენით ახალი მასივი სადაც იქნება იმ იუზერების სახელები (მხოლოდ სახელები), რომელთა ასაკიც მეტია 18-ზე.
 
